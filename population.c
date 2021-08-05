@@ -8,7 +8,7 @@ int main(void)
     int n;
     do
     {
-        n = get_int("Start size: \n");
+        n = get_int("Initial population: \n");
     }
     while (n < 9);
 
@@ -16,7 +16,7 @@ int main(void)
     int e;
     do
     {
-        e = get_int("End size: \n");
+        e = get_int("Final population: \n");
     }
     while (e < n);
 
@@ -29,5 +29,5 @@ int main(void)
     }
 
     // TODO: Print number of years
-    printf("Years: %i\n", y);
+    printf("Years will take: %i\n", y);
 }
